@@ -6,4 +6,4 @@ if(WIN32)
 endif()
 
 add_executable(main ${SOURCES})
-target_link_libraries(main wx::net wx::core wx::base)
+target_link_libraries(main wx::net wx::core wx::base ctre)
